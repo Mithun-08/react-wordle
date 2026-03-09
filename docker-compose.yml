@@ -1,0 +1,11 @@
+services:
+  wordle:
+    image: wordle:latest
+    container_name: wordle
+    restart: unless-stopped
+    ports:
+     - 4011:80    
+
+networks:
+  proxy:
+    external: true
