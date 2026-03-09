@@ -127,14 +127,14 @@ export const getWordOfDay = (index: number) => {
 }
 
 export const getSolution = (gameDate: Date) => {
-  const nextGameDate = getNextGameDate(gameDate)
-  const index = getIndex(gameDate)
+  // Use a random index on every load so a new game starts immediately
+  const index = Math.floor(Math.random() * WORDS.length)
   const wordOfTheDay = getWordOfDay(index)
   return {
     solution: wordOfTheDay,
     solutionGameDate: gameDate,
     solutionIndex: index,
-    tomorrow: nextGameDate.valueOf(),
+    tomorrow: Date.now(), // No cooldown — next game is available immediately
   }
 }
 
@@ -178,3 +178,4 @@ export const getIsLatestGame = () => {
 
 export const { solution, solutionGameDate, solutionIndex, tomorrow } =
   getSolution(getGameDate())
+
