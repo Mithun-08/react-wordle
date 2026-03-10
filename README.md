@@ -13,11 +13,11 @@ to claim ownership of or profit from the original work.
 
 # React Wordle
 
-![Docker Pulls](https://img.shields.io/docker/pulls/modem7/wordle)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/modem7/wordle/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/imithun/wordle)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/imithun/wordle/latest)
 [![Build Status](https://drone.modem7.com/api/badges/modem7/react-wordle/status.svg)](https://drone.modem7.com/modem7/react-wordle)
-[![GitHub last commit](https://img.shields.io/github/last-commit/modem7/react-wordle)](react-wordle)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/modem7/react-wordle/React%20app%20deployement?label=gh%20pages)
+[![GitHub last commit](https://img.shields.io/github/last-commit/imithun/react-wordle)](react-wordle)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/imithun/react-wordle/React%20app%20deployement?label=gh%20pages)
 
 This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
