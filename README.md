@@ -11,7 +11,7 @@ gameplay or code have been made.
 This fork is self-hosted privately for personal use only and is in no way intended 
 to claim ownership of or profit from the original work.
 
-[**Try it out!**](https://wordle.mithn.in)
+[**Try it out!**](https://wordly.mithn.in)
 
 # Configuration
 
@@ -34,7 +34,7 @@ services:
 
 ## Project Screenshot
 
-<img width="400" alt="Wordle Screenshot" src="https://github.com/user-attachments/assets/2055b8c0-3de7-448c-af34-12d6f2bff881" />
+<img width="839" height="1082" alt="Screenshot 2026-03-10 185628" src="https://github.com/user-attachments/assets/c90dddc5-6153-4b38-9d06-15cb1880a940" />
 
 ## Original Project
 [Cwackerfuss/React-Wordle](https://github.com/cwackerfuss/react-wordle)
