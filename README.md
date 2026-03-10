@@ -50,7 +50,7 @@ version: "2.4"
 services:
 
   wordle:
-    image: modem7/wordle:latest
+    image: imithun/wordle:latest
     container_name: Wordle
     ports:
       - 80:8080
