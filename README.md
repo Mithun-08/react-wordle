@@ -1,4 +1,4 @@
-## My Fork
+# My Fork
 
 This is a personal fork of [reactle](https://github.com/modem7/react-wordle) 
 by [modem7](https://github.com/modem7). All credit for the original work 
