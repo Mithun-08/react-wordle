@@ -34,7 +34,7 @@ services:
 
 ## Project Screenshot
 
-![image](https://github.com/user-attachments/assets/2055b8c0-3de7-448c-af34-12d6f2bff881)
+<img width="400" alt="Wordle Screenshot" src="https://github.com/user-attachments/assets/2055b8c0-3de7-448c-af34-12d6f2bff881" />
 
 ## Original Project
 [Cwackerfuss/React-Wordle](https://github.com/cwackerfuss/react-wordle)
