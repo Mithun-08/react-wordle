@@ -39,13 +39,6 @@ This is a new version of Wordle, created by [cwackerfuss](https://github.com/cwa
 
 Please see the configuration below to set this up. 
 
-## Legacy
-This is the original Worlde, cloned from the orignal website, and shunted into an Nginx container. This is as close as you'll get to the NYT version, and it should be in line with the latest word of the day. 
-
-This will not be updated, except for security updates and Nginx updates.
-
-Please see the configuration below to set this up.
-
 # Configuration
 
 ## Latest
@@ -63,25 +56,10 @@ services:
       - 80:8080
 ```
 
-## Legacy
-
-```yaml
-version: "2.4"
-
-services:
-
-  wordle:
-    image: modem7/wordle:legacy
-    container_name: Wordle
-    ports:
-      - 80:80
-```
-
 # Tags
 | Tag | Description |
 | :----: | --- |
 | latest | Latest version |
-| legacy | Legacy version |
 
 ## Project Screenshot
 
